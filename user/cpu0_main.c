@@ -97,7 +97,7 @@ int core0_main(void)
 	while (TRUE)
 	{
         // 此处编写需要循环执行的代码
-	    delay_time = 1000;
+	    delay_time = 10009;
 
 	    if(gpio_get_level(SWITCH1)) delay_time /= 2;
 	    if(gpio_get_level(SWITCH2)) delay_time /= 2;
